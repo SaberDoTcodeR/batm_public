@@ -265,6 +265,8 @@
                 <cryptocurrency>TKN</cryptocurrency>
                 <cryptocurrency>USDT</cryptocurrency>
                 <cryptocurrency>USDTTRON</cryptocurrency>
+                <cryptocurrency>PALLA</cryptocurrency>
+
                 <cryptocurrency>VIA</cryptocurrency>
                 <cryptocurrency>WDC</cryptocurrency>
                 <cryptocurrency>WILC</cryptocurrency>
@@ -549,7 +551,10 @@
             <cryptocurrency>TRX</cryptocurrency>
             <cryptocurrency>USDS</cryptocurrency>
             <cryptocurrency>USDT</cryptocurrency>
+
             <cryptocurrency>USDTTRON</cryptocurrency>
+            <cryptocurrency>PALLA</cryptocurrency>
+
             <cryptocurrency>VIA</cryptocurrency>
             <cryptocurrency>VOLTZ</cryptocurrency>
             <cryptocurrency>WDC</cryptocurrency>
@@ -617,6 +622,8 @@
             <cryptocurrency>TRX</cryptocurrency>
             <cryptocurrency>USDT</cryptocurrency>
             <cryptocurrency>USDTTRON</cryptocurrency>
+            <cryptocurrency>PALLA</cryptocurrency>
+
             <cryptocurrency>VIA</cryptocurrency>
             <cryptocurrency>VOLTZ</cryptocurrency>
             <cryptocurrency>WDC</cryptocurrency>
@@ -2032,6 +2039,16 @@
         </wallet>
         <cryptologo cryptocurrency="ADA" file="cardano_ada.png"/>
         <cryptologo cryptocurrency="ADA" file="cardano_ada.svg"/>
+    </extension>
+    <extension class="com.generalbytes.batm.server.extensions.extra.tron.TronExtension">
+        <wallet prefix="tridentTRC20_PALLA_8_TCfLxS9xHxH8auBL3T8pf3NFTZhsxy4Ncg" name="Tron TRC20 Trident wallet - PALLA">
+            <param name="apikey"/>
+            <param name="privatekey"/>
+            <help>apikey is obtained from trongrid.io. privatekey is 64 characters long hex string</help>
+            <cryptocurrency>PALLA</cryptocurrency>
+        </wallet>
+        <cryptologo cryptocurrency="PALLA" file="palla.png"/>
+        <cryptologo cryptocurrency="PALLA" file="palla.svg"/>
     </extension>
     <extension class="com.generalbytes.batm.server.extensions.extra.tron.TronExtension">
         <wallet prefix="tridentTRC20_USDTTRON_6_TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t" name="Tron TRC20 Trident wallet - USDT">
